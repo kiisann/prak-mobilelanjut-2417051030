@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('PRAKTIKUM MOBILE LANJUT')),
         body: const Center(
-          child: Text('Hello, Nama Saya Fiki', style: TextStyle(fontSize: 24)),
+          child: Text('Hello, Nama Saya Fiki Sulistiawan', style: TextStyle(fontSize: 24)),
         ),
         ),
       );
