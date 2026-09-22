@@ -27,7 +27,7 @@ class _FormWidgetState extends State<FormWidget> {
                 validator: (value) => value!.isEmpty ? 'Nama tidak boleh kosong' : null,
               ),
               SizedBox(height: 20),
-              ElevatedButton(onPressed: () { 
+              ElevatedButton(onPressed: () {
                 if(_formKey.currentState!.validate()) {
                   showDialog(context: context, 
                   builder: (context) => AlertDialog(
