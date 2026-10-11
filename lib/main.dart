@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:prakmola_fiki/detail_page.dart';
+// import 'package:prakmola_fiki/detail_page.dart';
 // import 'row_widget.dart';
 // import 'column_widget.dart';
 // import 'first_widget.dart';
@@ -9,7 +9,7 @@ import 'package:prakmola_fiki/detail_page.dart';
 // import 'responsive_profile.dart';
 
 import 'assets_media.dart';
-// import 'detail_page.dart';
+import 'detail_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -62,7 +62,7 @@ void main() {
 //   }
 // }
 
-class MyApp extends StatelessWidget {
+  class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override

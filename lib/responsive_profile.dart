@@ -6,7 +6,7 @@ class ResponsiveProfilePage extends StatelessWidget {
   const ResponsiveProfilePage({
     super.key,
     required this.onThemeChanged,
-  });
+  });   
 
   @override
   Widget build(BuildContext context) {
@@ -72,11 +72,11 @@ class _ProfileHeader extends StatelessWidget {
                 Icons.person,
                 size: 48,
                 color: Theme.of(context).colorScheme.primary,
-              ),
+              ),  
             ),
             const SizedBox(height: 16),
             Text(
-              'Nama Mahasiswa',
+              'Fiki Sulistiawan',
               style: Theme.of(context).textTheme.headlineSmall,
               textAlign: TextAlign.center,
             ),

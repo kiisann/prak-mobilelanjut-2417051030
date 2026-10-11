@@ -17,7 +17,7 @@ class _AssetsMediaPageState extends State<AssetsMediaPage> {
     if (isPlaying) {
       await player.pause();
     } else {
-      await player.play(AssetSource('audios/presiden-goblok.mp3'));
+      await player.play(AssetSource('audios/presiden.mp3'));
     }
     setState(() {
       isPlaying = !isPlaying;
@@ -101,7 +101,7 @@ class _AssetsMediaPageState extends State<AssetsMediaPage> {
                     ),
                     const SizedBox(height: 15),
                     const Text(
-                      'Fiki Sulsitiawan',
+                      'Fiki Sulistiawan',
                       style: TextStyle(
                         fontFamily: 'Poppins',
                         fontSize: 22,
@@ -182,7 +182,7 @@ class _AssetsMediaPageState extends State<AssetsMediaPage> {
           });
           if (index == 1) {
             Navigator.pushNamed(context, '/detail');
-          }
+          } 
         },
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Beranda'),
