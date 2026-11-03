@@ -10,6 +10,7 @@ import 'package:flutter/material.dart';
 
 import 'assets_media.dart';
 import 'detail_page.dart';
+import 'home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -69,11 +70,11 @@ void main() {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Assets Media',
+      title: 'Home Screen',
 
       theme: ThemeData(
         useMaterial3: true,
-        fontFamily: 'Poppins',
+        fontFamily: 'Roboto',
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color(0xFF4D63D9),
         ),
@@ -81,7 +82,8 @@ void main() {
       initialRoute: '/',
 
       routes: {
-        '/': (context) => const AssetsMediaPage(),
+        '/':(context) => const HomeScreen(),
+        '/assets': (context) => const AssetsMediaPage(),
         '/detail': (context) => const DetailPage(),
       },
     );
